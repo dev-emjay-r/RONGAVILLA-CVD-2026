@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a description for this website" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+
+    <p>paragraph</p>
+    <img src="./img/Graphics.png" alt="Graphics" />
+    <ul>
+      <li>Pineapple</li>
+      <li>Pineapple</li>
+      <li>Pineapple</li>
+      <li>Pineapple</li>
+    </ul>
+
+    <table>
+      <tr>
+        <th>Header</th>
+        <th>Header</th>
+      </tr>
+      <tr>
+        <th>Header</th>
+        <th>Header</th>
+      </tr>
+      <tr>
+        <th>Header</th>
+        <th>Header</th>
+      </tr>
+      <tr>
+        <td>data</td>
+
+        <td>data</td>
+      </tr>
+    </table>
+
+    <form action="./home.html" method="get">
+      <label for="username">username</label>
+
+      <input type="text" name="username" placeholder="username" />
+      <input type="submit" value="Submit" />
+      <a target="_blank" href="http://google.com">google</a>
+    </form>
+
+    <section class="banner">
+      <div class="banner__text"></div>
+      <div class="banner_img">
+        <button class="banner__img--explore"></button>
+      </div>
+    </section>
+
+    <script>
+      const nonreversed = "Hello World";
+      let reversed = "";
+      for (let i = nonreversed.length - 1; i >= 0; i--) {
+        reversed += nonreversed[i];
+      }
+
+      console.log(reversed);
+    </script>
+  </body>
+</html>
