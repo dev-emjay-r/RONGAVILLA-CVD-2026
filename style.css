@@ -251,6 +251,21 @@ img {
   margin: 3rem 0;
 }
 
+.banner__text .banner__social ul{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.banner__social ul li a {
+  color : var(--clr-primary);
+  font-size: 24px;
+}
+
+.banner__wrapper .chevron a{
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
 .skills {
   padding: 4rem 0;
   background-color: var(--clr-dark);
@@ -436,7 +451,7 @@ justify-content: space-between;
   display: flex;
   flex-direction: row;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 4rem;
 }
@@ -447,10 +462,7 @@ justify-content: space-between;
 }
 .update__right{
   display: flex;
-  flex: 1;
-  display: flex;
   flex-direction: column;
-  place-items: center;
 }
 
 .update__left{
@@ -471,7 +483,9 @@ justify-content: space-between;
   flex-direction: row;
   gap: 4rem;
 }
-
+.update__topics { 
+  margin: 4rem 0;
+}
 .update__topic h3{
   margin: 4rem 0;
 }
@@ -479,7 +493,7 @@ justify-content: space-between;
 .update__topic p{
   color : var(--clr-dark);
   margin-bottom: 4rem;
-  max-width: 65%;
+ 
   text-align: justify;
 }
 
@@ -487,13 +501,39 @@ justify-content: space-between;
   color: var(--clr-primary);
   margin: 4rem 0;
 }
+.table-wrapper table {
+  width: 100%;
+}
 .table-wrapper table td{
-  padding: 1rem 6rem 1rem 0;
+  padding: 1rem 0rem 1rem 0;
 }
 .table-wrapper table td:nth-child(2){
-  text-align: center;
+  text-align: right;
+}
+.recent-post__table-wrapper table td {
+  margin: 4rem;
+  padding:  5px;
+}
+.recent-post__table-wrapper table td:nth-child(2) { 
+  text-align: left;
+  justify-content: center;
+  align-content: center;
 }
 
+.recent-post__table-wrapper table td:nth-child(2) h5{ 
+font-weight: 700;
+
+}
+.tags__table-wrapper table{ 
+ width: 100%;
+}
+.tags__table-wrapper table td{ 
+ margin: 4rem;
+  padding:  5px;
+}
+.tags__table-wrapper table td a{ 
+  width: 100%;
+}
 .cta {
   padding: 4rem 0;
   background-color: var(--clr-primary);
