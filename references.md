@@ -1,0 +1,17 @@
+FONT SIZES - DESKTOP
+H1 - 71
+H2 - 48
+H3 - 36
+H4 - 24
+H5 - 18
+H6 - 14
+P - 18
+
+FONT SIZES - MOBILE
+H1 - 48
+H2 - 36
+H3 - 24
+H4 - 20
+H5 - 18
+H6 - 14
+P - 18
