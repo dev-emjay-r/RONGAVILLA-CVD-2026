@@ -134,6 +134,7 @@ img {
   padding: 0 1.5rem;
 }
 
+/* Header Start */
 .header {
   padding: 3rem 0;
   background-color: var(--clr-dark);
@@ -227,6 +228,10 @@ img {
     transition: 0.5s ease;
   }
 }
+
+/* home.html START */
+
+/* Banner Start */
 .banner {
   padding: 4rem 0;
   background-color: var(--clr-light);
@@ -266,6 +271,11 @@ img {
   align-content: center;
   width: 100%;
 }
+
+/* Banner Start */
+
+
+/* Skills Start */
 .skills {
   padding: 4rem 0;
   background-color: var(--clr-dark);
@@ -334,6 +344,33 @@ img {
 .about__text p:last-child {
   margin-bottom: unset;
 }
+
+/* About  End */
+
+
+/* Trends Start */
+
+.trends {
+  padding: 4rem 0;
+  background: var(--clr-dark);
+}
+
+.trends__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+
+
+/* Trends End */
+
+/* home.html END */
+
+
+/* Services.html  START */
+
 .services {
   padding: 4rem 0;
   background-color: var(--clr-light);
@@ -421,32 +458,12 @@ justify-content: space-between;
   font-size: 12px;
 }
 
-.chevron {
-  margin-top: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+/* Services.html  END */
 
-}
-.chevron a{
-  font-size: 5rem;
-  color: var(--clr-primary);
-}
 
-.trends {
-  padding: 4rem 0;
-  background: var(--clr-dark);
-}
 
-.trends__wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
-  margin-top: 3rem;
-}
 
+/* Updates.html START */
 .update__wrapper { 
   display: flex;
   flex-direction: row;
@@ -463,6 +480,7 @@ justify-content: space-between;
 .update__right{
   display: flex;
   flex-direction: column;
+  max-width: 35%;
 }
 
 .update__left{
@@ -493,7 +511,6 @@ justify-content: space-between;
 .update__topic p{
   color : var(--clr-dark);
   margin-bottom: 4rem;
- 
   text-align: justify;
 }
 
@@ -534,6 +551,86 @@ font-weight: 700;
 .tags__table-wrapper table td a{ 
   width: 100%;
 }
+
+
+/* updates.html END */
+
+/* Contacts Start */
+
+.contacts { 
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+.contacts__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  padding: 4rem 15rem;
+}
+.contacts__details { 
+ padding: 0 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.contacts__details h3{
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--clr-primary);
+  margin: 2rem 0;
+}
+
+.contacts__details p { 
+  max-width: 70%;
+  text-align: justify;
+  line-height: 2rem;
+  margin: 2rem;
+}
+
+.contacts__details .contact__info li{
+ margin: 2rem 0;
+}
+.contacts__details .contact__info  li i{
+  color: var(--clr-primary);
+}
+.contact__info li span{
+  gap: 4rem;
+}
+.contacts__socials{
+  display:  flex;
+  gap: 1rem;
+  margin: 4rem 0;
+}
+.contacts__details .contacts__socials li a {
+   color: var(--clr-light);
+}
+
+
+.contacts__form form{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+
+}
+.contacts__form form .text-input{
+  margin: 2rem 0;
+  width: 100%;
+  height: 50px;
+  font-family: var(--font);
+}
+.contacts__form form .text-input-message{
+  margin: 2rem 0;
+  width: 100%;
+  height: 200px;
+  font-family: var(--font);
+}
+
+
+/* Contacts End */
+
+/* CTA Start */
 .cta {
   padding: 4rem 0;
   background-color: var(--clr-primary);
@@ -551,6 +648,11 @@ font-weight: 700;
 .cta__info p {
   margin-bottom: 2rem;
 }
+
+/* CTA End */
+
+
+/* Footer Start */
 
 .footer {
   padding: 2rem 0;
@@ -576,6 +678,8 @@ font-weight: 700;
 .footer__social li a:hover {
   color: var(--clr-primary);
 }
+
+/* Footer End */
 
 /* ASSETS */
 
@@ -626,6 +730,17 @@ font-weight: 700;
 .btn.no-bg-btn--dark:hover {
   color: var(--clr-primary);
   transition: all 0.5s ease-in-out;
+}
+
+.btn.bg--primary.btn-submit { 
+width: 25%;
+height: 4rem;
+align-content: flex-end;
+display: flex;
+font-weight: 300;
+color: var(--clr-light);
+font-size: 13px;
+align-self: flex-end;
 }
 
 .title h2 {
@@ -696,5 +811,24 @@ font-weight: 700;
 .cards:hover .cards__details {
   height: 45%;
   transition: all 0.5s ease-in-out;
+}
+
+#current {
+  color : var(--clr-primary);
+}
+
+
+
+.chevron {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+.chevron a{
+  font-size: 5rem;
+  color: var(--clr-primary);
 }
 

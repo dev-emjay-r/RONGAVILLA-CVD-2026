@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the official website of Creative Visual Design"
+    />
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Creative Visual Design</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <img src="./img/Brand.png" alt="This is logo" />
+            <h5>Creative <span>Visual</span> Design</h5>
+          </div>
+          <nav class="header__nav">
+            <ul>
+              <li><a href="./home.html">Home</a></li>
+              <li><a id="current" href="./about.html">About</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./updates.html">Updates</a></li>
+              <li><a href="./contacts.html">Contacts</a></li>
+            </ul>
+          </nav>
+          <div class="toggle__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="contacts">
+      <div class="contacts__wrapper">
+        <div class="contacts__details">
+          <h3>Contact</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consectetur deleniti atque consequatur illum cum aspernatur!
+          </p>
+          <ul class="contact__info">
+            <li>
+              <i class="fa-solid fa-phone"></i> <span></span> +63 987 654 3210
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <span></span> inquire@creativevisualdesign.com
+            </li>
+            <li><i class="fa-solid fa-location-pin"></i><span></span>Baloc Road, Brgy. San Ignacio, San Pablo City, Laguna 4000</li>
+          </ul>
+
+          <ul class="contacts__socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts__form">
+          <form action="">
+            <input type="text" class="text-input" name="contacts__name" id="" placeholder="NAME"/>
+            <input type="text" class="text-input" name="contacts__email" id="" placeholder="EMAIL"/>
+            <!-- <input
+              type="textarea"
+              
+              id=""
+              placeholder="MESSAGE"
+              class="text-input-message" 
+            /> -->
+             <textarea id="message" name="contacts__message" rows="4" cols="50" placeholder="MESSAGE" class="text-input-message" ></textarea>
+
+            <input type="submit" value="Send a Message" class="btn bg--primary btn-submit" name="contacts___submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="footer__social">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+          <p>Brgy. San Ignacio, San Pablo City, Laguna</p>
+          <p>©CREATIVEDESIGN2026</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

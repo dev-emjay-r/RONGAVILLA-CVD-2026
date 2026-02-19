@@ -55,3 +55,9 @@ header / description / price_starts / colored header / italic text
  -  recent post
     - table tr nth child
     - 
+
+
+
+clean up html css
+
+
