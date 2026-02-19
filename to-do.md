@@ -58,6 +58,24 @@ header / description / price_starts / colored header / italic text
 
 
 
-clean up html css
+Clean Up HTML 
+---
+- about.html
+- services.html
 
+
+Clean Up CSS 
+
+
+
+
+```css
+@media only screen and (min-width: 992px) {...}
+```
+
+- home.html
+- about.html
+- services.html
+- updates.html
+- contacts.html
 

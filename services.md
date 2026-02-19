@@ -1,52 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="This is the official website of Creative Visual Design"
-    />
-
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <title>Creative Visual Design</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="header">
-      <div class="container">
-        <div class="header__wrapper">
-          <div class="header__logo">
-            <img src="./img/Brand.png" alt="This is logo" />
-            <h5>Creative <span>Visual</span> Design</h5>
-          </div>
-          <nav class="header__nav">
-            <ul>
-              <li><a href="./home.html">Home</a></li>
-              <li><a href="./about.html">About</a></li>
-              <li><a id="current" href="./services.html">Services</a></li>
-              <li><a href="./updates.html">Updates</a></li>
-              <li><a href="./contacts.html">Contacts</a></li>
-            </ul>
-          </nav>
-          <div class="toggle__menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
-    </header>
-   <section class="services">
+```html
+<!-- Service 1 -->
+    <section class="services">
       <div class="services__wrapper">
         <div class="services__items">
           <div class="services__left">
@@ -150,50 +104,70 @@
         </div>
     </section>
 
+    ```
 
-    <!-- cta -->
-    <section class="cta">
-      <div class="container">
-        <div class="cta__info">
-          <h3>Feel free to talk to us about your projects</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <a href="#" class="btn bg--dark">CONTACT US</a>
+
+
+
+
+    ```
+     <section class="services">
+      <!-- services 1 Start -->
+      <div class="services__item">
+        <div class="services__wrapper">
+          <div class="services__left">
+            <h2>Web Design & Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+              sint, voluptate voluptates ab atque quod, temporibus debitis
+              consequatur voluptatibus non a cupiditate? Libero quas vel, fuga
+              minus maxime architecto rerum recusandae nostrum similique magnam
+              corrupti voluptate placeat dolore quos reiciendis!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+              sint, voluptate voluptates ab atque quod, temporibus debitis
+              consequatur voluptatibus non a cupiditate? Libero quas vel, fuga
+              minus maxime architecto rerum recusandae nostrum similique magnam
+              corrupti voluptate placeat dolore quos reiciendis!
+            </p>
+            <p id="price-starts">Price starts</p>
+            <h4 id="price">200$-300$</h4>
+            <i id="vary">Price may vary depending on design and development</i>
+          </div>
+          <div class="services__right"><img src="img/webdevv.png" alt="" /></div>
         </div>
       </div>
+      <div class="chevron"> <a href="#graphics"><i class="fa-solid fa-angle-down"></i> </a></div>
+      <!-- services 1 Start -->
+      <!-- services 1 Start -->
+      <div class="services__item">
+        <div class="services__wrapper">
+          <div class="services__left">
+            <h2>Web Design & Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+              sint, voluptate voluptates ab atque quod, temporibus debitis
+              consequatur voluptatibus non a cupiditate? Libero quas vel, fuga
+              minus maxime architecto rerum recusandae nostrum similique magnam
+              corrupti voluptate placeat dolore quos reiciendis!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+              sint, voluptate voluptates ab atque quod, temporibus debitis
+              consequatur voluptatibus non a cupiditate? Libero quas vel, fuga
+              minus maxime architecto rerum recusandae nostrum similique magnam
+              corrupti voluptate placeat dolore quos reiciendis!
+            </p>
+            <p id="price-starts">Price starts</p>
+            <h4 id="price">200$-300$</h4>
+            <i id="vary">Price may vary depending on design and development</i>
+          </div>
+          <div class="services__right"><img src="img/webdevv.png" alt="" /></div>
+        </div>
+      </div>
+      <div class="chevron"> <a href="#graphics"><i class="fa-solid fa-angle-down"></i> </a></div>
+      <!-- services 1 Start -->
     </section>
-    <!-- footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__wrapper">
-          <ul class="footer__social">
-            <li>
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-envelope"></i></a>
-            </li>
-          </ul>
-          <p>Brgy. San Ignacio, San Pablo City, Laguna</p>
-          <p>©CREATIVEDESIGN2026</p>
-        </div>
-      </div>
-    </footer>
 
-    <script>
-      const chevrons = document.querySelectorAll(".chevron");
-      const lastChevron = chevrons[chevrons.length - 1];
-      lastChevron.style.display = "none";
-    </script>
-
-    <script src="script.js"></script>
-  </body>
-</html>
+    ```

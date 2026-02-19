@@ -37,3 +37,9 @@ P - 18
 ```
 
 
+```javascript
+
+const rootElement = document.documentElement; // Selects the <html> element
+const computedStyle = window.getComputedStyle(rootElement);
+const rootFontSize = computedStyle.getPropertyValue('font-size');
+```
