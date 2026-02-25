@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+   
     <title>Creative Visual Design</title>
   </head>
   <body>
@@ -25,18 +26,23 @@
       <div class="container">
         <div class="header__wrapper">
           <div class="header__logo">
-            <img src="img/Brand.png" alt="brand logo" />
+            <img src="./img/Brand.png" alt="This is logo" />
             <h5>Creative <span>Visual</span> Design</h5>
           </div>
           <nav class="header__nav">
             <ul>
-              <li><a href="home.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="updates.html">Updates</a></li>
-              <li><a href="contacts.html">Contact</a></li>
-              <li><a href="about.html">About</a></li>
+              <li><a id="current" href="./home.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./updates.html">Updates</a></li>
+              <li><a href="./contacts.html">Contacts</a></li>
             </ul>
           </nav>
+          <div class="toggle__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </header>
@@ -107,7 +113,7 @@
       <div class="container">
         <div class="about__wrapper">
           <div class="about__img">
-            <img src="img/about pic.png" alt="about pic" />
+            <img src="img/about pic.png" alt="about pic" id="about__pic"/>
           </div>
           <div class="about__text">
             <h2>About Me</h2>
@@ -212,5 +218,20 @@
         </div>
       </div>
     </footer>
+    <script>
+      const about_img = document.querySelector('.about__img');
+      const about_pic = document.querySelector('#about__pic');
+
+
+      // window.addEventListener("onload",()=>{
+      //   about_img.style.setProperty('--img-width',about_pic.width);
+      //   about_img.style.setProperty('--img-height',about_pic.height);
+      // });
+      //  window.addEventListener("resize",()=>{
+      //   about_img.style.setProperty('--img-width',about_pic.width);
+      //   about_img.style.setProperty('--img-height',about_pic.height);
+      // });
+      </script>
+     <script src="script.js"></script>
   </body>
 </html>
